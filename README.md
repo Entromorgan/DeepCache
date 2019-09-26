@@ -23,11 +23,11 @@ The folder *CNNCache* is an Android demo of DeepCache, including the image match
 
 * Android Studio 3.5: 
 
-![avatar](/img/SDK Platforms.png)
+![avatar](/img/SDK_Platforms.png)
 
-![avatar](/img/SDK Tools.png)
+![avatar](/img/SDK_Tools.png)
 
-![avatar](/img/SDK Update Sites.png)
+![avatar](/img/SDK_Update_Sites.png)
 
 # Build process
 
