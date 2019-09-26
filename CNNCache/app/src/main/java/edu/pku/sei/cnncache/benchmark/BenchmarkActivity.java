@@ -21,6 +21,7 @@ import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.net.Uri;
+import android.os.Environment;
 import android.os.Process;
 import android.util.Log;
 import android.view.View;
@@ -120,22 +121,22 @@ public class BenchmarkActivity extends Activity implements View.OnClickListener 
 		}
 
 		// Squeezenet
-//        ncnn.Init(
-//                "/sdcard/ncnn/models/squeezenet.param",
-//                "/sdcard/ncnn/models/squeezenet.bin",
-//                false, words, "data", "prob", 0);
+        ncnn.Init(
+                "/mnt/sdcard/data/ncnn/models/squeezenet_v1.1.param",
+                "/mnt/sdcard/data/ncnn/models/squeezenet_v1.1.bin",
+                false, words, "data", "prob", 0);
 
 		// Alexnet
 //        ncnn.Init(
-//                "/sdcard/ncnn/models/alexnet.param",
-//                "/sdcard/ncnn/models/alexnet.bin",
+//				"/mnt/sdcard/data/ncnn/models/alexnet.param",
+//				"/mnt/sdcard/data/ncnn/models/alexnet.bin",
 //                false, words, "data", "prob", 0);
 
 		// GoogleNet
-		ncnn.Init(
-				"/sdcard/ncnn/models/googlenet.param",
-				"/sdcard/ncnn/models/googlenet.bin",
-				false, words, "data", "prob", 0);
+//		ncnn.Init(
+//				"/sdcard/ncnn/models/googlenet.param",
+//				"/sdcard/ncnn/models/googlenet.bin",
+//				false, words, "data", "prob", 0);
 
 		// MobileNet: https://github.com/shicai/MobileNet-Caffe
 //		ncnn.Init(

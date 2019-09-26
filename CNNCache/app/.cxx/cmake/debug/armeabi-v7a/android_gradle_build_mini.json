@@ -1,0 +1,22 @@
+{
+  "buildFiles": [
+    "D:\\Learning\\Code\\Proj\\DeepCache\\DeepCache-master\\CNNCache\\app\\CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "D:\\Users\\Leon\\AppData\\Local\\Android\\SDK\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\Learning\\Code\\Proj\\DeepCache\\DeepCache-master\\CNNCache\\app\\.cxx\\cmake\\debug\\armeabi-v7a --target clean"
+  ],
+  "libraries": {
+    "libncnn-Debug-armeabi-v7a": {
+      "artifactName": "libncnn",
+      "buildCommand": "D:\\Users\\Leon\\AppData\\Local\\Android\\SDK\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\Learning\\Code\\Proj\\DeepCache\\DeepCache-master\\CNNCache\\app\\.cxx\\cmake\\debug\\armeabi-v7a --target libncnn",
+      "abi": "armeabi-v7a",
+      "output": "D:\\Learning\\Code\\Proj\\DeepCache\\DeepCache-master\\CNNCache\\app\\build\\intermediates\\cmake\\debug\\obj\\armeabi-v7a\\liblibncnn.so"
+    },
+    "ImageUtils-Debug-armeabi-v7a": {
+      "artifactName": "ImageUtils",
+      "buildCommand": "D:\\Users\\Leon\\AppData\\Local\\Android\\SDK\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\Learning\\Code\\Proj\\DeepCache\\DeepCache-master\\CNNCache\\app\\.cxx\\cmake\\debug\\armeabi-v7a --target ImageUtils",
+      "abi": "armeabi-v7a",
+      "output": "D:\\Learning\\Code\\Proj\\DeepCache\\DeepCache-master\\CNNCache\\app\\build\\intermediates\\cmake\\debug\\obj\\armeabi-v7a\\libImageUtils.so"
+    }
+  }
+}

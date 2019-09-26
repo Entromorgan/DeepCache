@@ -2,6 +2,7 @@ package edu.pku.sei.cnncache.benchmark;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.os.Environment;
 import android.util.Log;
 
 import java.io.File;
@@ -16,7 +17,7 @@ import java.util.Map;
  */
 
 public class benchmark {
-	private final String path = "/sdcard/ncnn/benchmark/";
+	private final String path = "/mnt/sdcard/data/ncnn/benchmark/";
 	private static HashMap<String, BConfig> BMaps;
 	private static final String TAG = "CNNCache";
 	static {
@@ -53,7 +54,7 @@ public class benchmark {
 		Bitmap[] bitmaps = new Bitmap[config.number];
 		for (int i = config.start, bitmap_index = 0; bitmap_index < config.number; i += config.offset) {
 			Bitmap bitmap = BitmapFactory.decodeFile(
-					"/sdcard/ncnn/benchmark/" + name + "/" + i + ".jpg");
+					"/mnt/sdcard/data/ncnn/benchmark/" + name + "/" + i + ".jpg");
 			Bitmap rgba = bitmap.copy(Bitmap.Config.ARGB_8888, true);
 			// resize to 227x227
 			bitmaps[bitmap_index ++] = Bitmap.createScaledBitmap(rgba, img_w, img_h, false);
@@ -122,7 +123,7 @@ public class benchmark {
 	public static Bitmap[] loadUCF101(String name, int img_w, int img_h, int img_num) {
 		Bitmap[] bitmaps = new Bitmap[img_num];
 		for (int i = 1; i <= img_num; i ++) {
-			String path = "/sdcard/ncnn/datasets/UCF101/" + name + "-" + i + ".jpg";
+			String path = "/mnt/sdcard/data/ncnn/datasets/UCF101/" + name + "-" + i + ".jpg";
 			try {
 				File f = new File(path);
 				if (!f.exists()) return null;

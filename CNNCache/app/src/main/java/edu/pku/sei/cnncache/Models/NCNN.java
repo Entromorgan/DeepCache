@@ -15,6 +15,8 @@
 package edu.pku.sei.cnncache.Models;
 
 import android.graphics.Bitmap;
+import android.os.Environment;
+
 import java.util.LinkedHashMap;
 import java.util.Map;
 
@@ -52,12 +54,14 @@ public class NCNN
     public NCNN() {
 		models.put("googlenet", new MODEL(
 				"data", "prob", 224,
-				"/sdcard/ncnn/models/googlenet.param",
-				"/sdcard/ncnn/models/googlenet.bin"));
-		models.put("alexnet", new MODEL(
+				"/mnt/sdcard/data/ncnn/models/googlenet.param",
+				"/mnt/sdcard/data/ncnn/models/googlenet.bin"));
+		models.put("squeezenet", new MODEL(
 				"data", "prob", 227,
-				"/sdcard/ncnn/models/alexnet.param",
-				"/sdcard/ncnn/models/alexnet.bin"
+				"/mnt/sdcard/data/ncnn/models/squeezenet_v1.1.param",
+				"/mnt/sdcard/data/ncnn/models/squeezenet_v1.1.bin"
+				//"/mnt/sdcard/data/ncnn/models/alexnet.param",
+				//"/mnt/sdcard/data/ncnn/models/alexnet.bin"
 		));
 	}
 

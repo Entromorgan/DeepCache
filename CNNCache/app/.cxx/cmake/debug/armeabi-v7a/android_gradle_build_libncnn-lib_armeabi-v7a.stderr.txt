@@ -1,0 +1,1 @@
+ninja: error: '/Users/echo/GoogleDrive/MyProject/CNNCache/code/ncnn/build-android/install/lib/libncnn.a', needed by '../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/liblibncnn-lib.so', missing and no known rule to make it

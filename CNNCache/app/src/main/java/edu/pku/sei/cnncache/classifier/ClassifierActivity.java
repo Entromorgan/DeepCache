@@ -22,7 +22,6 @@ import android.graphics.Canvas;
 import android.graphics.Matrix;
 import android.graphics.Typeface;
 import android.media.ImageReader.OnImageAvailableListener;
-import android.os.Environment;
 import android.os.Message;
 import android.os.SystemClock;
 import android.util.Log;
@@ -83,7 +82,7 @@ public class ClassifierActivity extends CameraActivity implements OnImageAvailab
 
 	private NCNN ncnn;
 	private List<String> model_choices;
-	private static final String default_model = "alexnet";
+	private static final String default_model = "squeezenet";
 	private String current_model = default_model;
 	private boolean model_changed = false;
 	byte[] words = null;
@@ -246,7 +245,8 @@ public class ClassifierActivity extends CameraActivity implements OnImageAvailab
 	}
 
 	private void save_bitmap(Bitmap img) {
-		String root = Environment.getExternalStorageDirectory().toString();
+		//String root = Environment.getDataDirectory().toString();
+		String root = "/mnt/sdcard/data";
 		File myDir = new File(root + "/ncnn/imgs/");
 		String fname = "Image-" + bitmap_cnt + ".jpg";
 		File file = new File(myDir, fname);

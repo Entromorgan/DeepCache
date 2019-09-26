@@ -1,0 +1,11 @@
+# ninja log v5
+37	2364	0	CMakeFiles/ImageUtils.dir/src/main/cpp/image_util/imageutils_jni.cc.o	5e3147b6be538d18
+27	2416	0	CMakeFiles/ImageUtils.dir/src/main/cpp/image_util/yuv2rgb.cc.o	c97fc1c11699361e
+1	2417	0	CMakeFiles/ImageUtils.dir/src/main/cpp/image_util/rgb2yuv.cc.o	dae18d1914e7f32f
+2417	4280	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libImageUtils.so	b01acb509d98babb
+1	1286	0	CMakeFiles/libncnn.dir/src/main/cpp/squeezencnn_jni.cpp.o	9330b0e5f40128f
+1288	1846	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/liblibncnn.so	dccc7d736d415f48
+2	169	0	CMakeFiles/ImageUtils.dir/src/main/cpp/image_util/rgb2yuv.cc.o	986ed2ef3252b987
+26	195	0	CMakeFiles/ImageUtils.dir/src/main/cpp/image_util/yuv2rgb.cc.o	a73079196a4e123b
+15	208	0	CMakeFiles/ImageUtils.dir/src/main/cpp/image_util/imageutils_jni.cc.o	e35becb8f8539488
+208	671	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libImageUtils.so	b01acb509d98babb

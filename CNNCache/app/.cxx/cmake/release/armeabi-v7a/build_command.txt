@@ -1,0 +1,15 @@
+Executable : D:\Users\Leon\AppData\Local\Android\SDK\cmake\3.6.4111459\bin\cmake.exe
+arguments : 
+-HD:\Learning\Code\Proj\DeepCache\DeepCache-master\CNNCache\app
+-BD:\Learning\Code\Proj\DeepCache\DeepCache-master\CNNCache\app\.cxx\cmake\release\armeabi-v7a
+-DANDROID_ABI=armeabi-v7a
+-DANDROID_PLATFORM=android-21
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=D:\Learning\Code\Proj\DeepCache\DeepCache-master\CNNCache\app\build\intermediates\cmake\release\obj\armeabi-v7a
+-DCMAKE_BUILD_TYPE=Release
+-DANDROID_NDK=D:\Users\Leon\AppData\Local\Android\SDK\ndk\20.0.5594570
+-DCMAKE_CXX_FLAGS=-frtti -fexceptions
+-DCMAKE_TOOLCHAIN_FILE=D:\Users\Leon\AppData\Local\Android\SDK\ndk\20.0.5594570\build\cmake\android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=D:\Users\Leon\AppData\Local\Android\SDK\cmake\3.6.4111459\bin\ninja.exe
+-GAndroid Gradle - Ninja
+jvmArgs : 
+

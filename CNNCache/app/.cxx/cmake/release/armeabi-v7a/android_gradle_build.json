@@ -1,0 +1,71 @@
+
+{
+	"buildFiles" : 
+	[
+		"D:/Learning/Code/Proj/DeepCache/DeepCache-master/CNNCache/app/CMakeLists.txt"
+	],
+	"cleanCommands" : 
+	[
+		"D:\\Users\\Leon\\AppData\\Local\\Android\\SDK\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\Learning\\Code\\Proj\\DeepCache\\DeepCache-master\\CNNCache\\app\\.cxx\\cmake\\release\\armeabi-v7a --target clean"
+	],
+	"cppFileExtensions" : [ "cc", "cpp" ],
+	"libraries" : 
+	{
+		"ImageUtils-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "ImageUtils",
+			"buildCommand" : "D:\\Users\\Leon\\AppData\\Local\\Android\\SDK\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\Learning\\Code\\Proj\\DeepCache\\DeepCache-master\\CNNCache\\app\\.cxx\\cmake\\release\\armeabi-v7a --target ImageUtils",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=D:/Users/Leon/AppData/Local/Android/SDK/ndk/20.0.5594570/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Users/Leon/AppData/Local/Android/SDK/ndk/20.0.5594570/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DImageUtils_EXPORTS -I\\Users\\echo\\GoogleDrive\\MyProject\\CNNCache\\code\\ncnn\\build-android\\install\\include -I..\\..\\..\\..\\  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -frtti -fexceptions -fopenmp=libomp -mfloat-abi=softfp -mfpu=neon -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -Oz -DNDEBUG  -fPIC   -std=gnu++11  -c ",
+					"src" : "D:/Learning/Code/Proj/DeepCache/DeepCache-master/CNNCache/app/src/main/cpp/image_util/imageutils_jni.cc",
+					"workingDirectory" : "D:/Learning/Code/Proj/DeepCache/DeepCache-master/CNNCache/app/.cxx/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=D:/Users/Leon/AppData/Local/Android/SDK/ndk/20.0.5594570/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Users/Leon/AppData/Local/Android/SDK/ndk/20.0.5594570/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DImageUtils_EXPORTS -I\\Users\\echo\\GoogleDrive\\MyProject\\CNNCache\\code\\ncnn\\build-android\\install\\include -I..\\..\\..\\..\\  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -frtti -fexceptions -fopenmp=libomp -mfloat-abi=softfp -mfpu=neon -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -Oz -DNDEBUG  -fPIC   -std=gnu++11  -c ",
+					"src" : "D:/Learning/Code/Proj/DeepCache/DeepCache-master/CNNCache/app/src/main/cpp/image_util/rgb2yuv.cc",
+					"workingDirectory" : "D:/Learning/Code/Proj/DeepCache/DeepCache-master/CNNCache/app/.cxx/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=D:/Users/Leon/AppData/Local/Android/SDK/ndk/20.0.5594570/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Users/Leon/AppData/Local/Android/SDK/ndk/20.0.5594570/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DImageUtils_EXPORTS -I\\Users\\echo\\GoogleDrive\\MyProject\\CNNCache\\code\\ncnn\\build-android\\install\\include -I..\\..\\..\\..\\  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -frtti -fexceptions -fopenmp=libomp -mfloat-abi=softfp -mfpu=neon -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -Oz -DNDEBUG  -fPIC   -std=gnu++11  -c ",
+					"src" : "D:/Learning/Code/Proj/DeepCache/DeepCache-master/CNNCache/app/src/main/cpp/image_util/yuv2rgb.cc",
+					"workingDirectory" : "D:/Learning/Code/Proj/DeepCache/DeepCache-master/CNNCache/app/.cxx/cmake/release/armeabi-v7a"
+				}
+			],
+			"output" : "D:/Learning/Code/Proj/DeepCache/DeepCache-master/CNNCache/app/build/intermediates/cmake/release/obj/armeabi-v7a/libImageUtils.so",
+			"toolchain" : "1359632437"
+		},
+		"libncnn-lib-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "libncnn-lib",
+			"buildCommand" : "D:\\Users\\Leon\\AppData\\Local\\Android\\SDK\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\Learning\\Code\\Proj\\DeepCache\\DeepCache-master\\CNNCache\\app\\.cxx\\cmake\\release\\armeabi-v7a --target libncnn-lib",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=D:/Users/Leon/AppData/Local/Android/SDK/ndk/20.0.5594570/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Users/Leon/AppData/Local/Android/SDK/ndk/20.0.5594570/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dlibncnn_lib_EXPORTS -I\\Users\\echo\\GoogleDrive\\MyProject\\CNNCache\\code\\ncnn\\build-android\\install\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -frtti -fexceptions -fopenmp=libomp -mfloat-abi=softfp -mfpu=neon -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -Oz -DNDEBUG  -fPIC   -std=gnu++11  -c ",
+					"src" : "D:/Learning/Code/Proj/DeepCache/DeepCache-master/CNNCache/app/src/main/cpp/squeezencnn_jni.cpp",
+					"workingDirectory" : "D:/Learning/Code/Proj/DeepCache/DeepCache-master/CNNCache/app/.cxx/cmake/release/armeabi-v7a"
+				}
+			],
+			"output" : "D:/Learning/Code/Proj/DeepCache/DeepCache-master/CNNCache/app/build/intermediates/cmake/release/obj/armeabi-v7a/liblibncnn-lib.so",
+			"toolchain" : "1359632437"
+		}
+	},
+	"toolchains" : 
+	{
+		"1359632437" : 
+		{
+			"cCompilerExecutable" : "D:/Users/Leon/AppData/Local/Android/SDK/ndk/20.0.5594570/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "D:/Users/Leon/AppData/Local/Android/SDK/ndk/20.0.5594570/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}

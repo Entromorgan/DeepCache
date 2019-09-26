@@ -5,7 +5,8 @@
 
 cmake_minimum_required(VERSION 3.4.1)
 
-set(NCNN_INSTALL_DIR /Users/echo/GoogleDrive/MyProject/CNNCache/code/ncnn/build-android/install)
+# set(NCNN_INSTALL_DIR /Users/echo/GoogleDrive/MyProject/CNNCache/code/ncnn/build-android/install)
+set(NCNN_INSTALL_DIR D:/Learning/Code/Proj/DeepCache/DeepCache-master/build-android/install)
 include_directories(${NCNN_INSTALL_DIR}/include)
 
 find_package(OpenMP)
